@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NorthCap Robotics Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">NorthCap Robotics Club</div>
+            <ul>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Initiatives</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Roadmap</a></li>
+                <li><a href="#">Whitepaper</a></li>
+            </ul>
+            <div class="social-icons">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-discord"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1><span>The NorthCap</span> Robotics Club</h1>
+        <p>All Events Will Be Published Here! Register Now</p>
+        <div class="buttons">
+            <a href="#" class="btn">Register Now</a>
+            <a href="#" class="btn secondary">Resources</a>
+        </div>
+    </section>
+    
+    <!-- Game Button -->
+    <button id="game-btn">🎮 Play Game</button>
+    <div id="game-modal">
+        <div class="game-container">
+            <canvas id="block-bash-game"></canvas>
+            <button id="close-game">❌ Close</button>
+        </div>
+    </div>
+    
+    
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Join <span>NorthCap Robotics Club?</span></h2>
+        <div class="feature-container">
+            <div class="feature">
+                <i class="fas fa-robot"></i>
+                <h3>Hands-on Robotics</h3>
+                <p>Learn and build real-world robots with our hands-on workshops.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-microchip"></i>
+                <h3>AI & Automation</h3>
+                <p>Explore AI, machine learning, and automation projects.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h3>Community Collaboration</h3>
+                <p>Network with like-minded robotics enthusiasts and industry experts.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-trophy"></i>
+                <h3>Competitions</h3>
+                <p>Compete in robotics and hackathon events to showcase your skills.</p>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="event-gallery">
+        <h2>Event Photos</h2>
+        <div class="carousel-container">
+            <button id="prev-btn">&#10094;</button>
+            <div class="carousel">
+                <img src="event1.jpg" class="event-photo" alt="Event 1">
+                <img src="event2.jpg" class="event-photo" alt="Event 2">
+                <img src="event3.jpg" class="event-photo" alt="Event 3">
+                <img src="event4.jpg" class="event-photo" alt="Event 4">
+            </div>
+            <button id="next-btn">&#10095;</button>
+        </div>
+    </section>
+
+
+    <!-- Faculty Coordinator 1 -->
+    <section class="faculty-section">
+        
+        <div class="faculty-content">
+            <div class="faculty-description-box">
+                <h2> Dr Shraddha Arora </h2>
+                <p>She is the faculty coordinator of the NorthCap Robotics Club. With over 15 years of experience in robotics and AI, she has guided students in numerous international robotics competitions.</p>
+            </div>
+            <div class="faculty-image">
+                <img src="faculty-coordinator1.jpg" alt="Faculty Coordinator">
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Coordinator 2 -->
+    <section class="faculty-section reverse">
+        <div class="faculty-content">
+            <div class="faculty-image left">
+                <img src="faculty-coordinator2.jpg" alt="Faculty Coordinator">
+            </div>
+            <div class="faculty-description-box">
+                <h2>Dr Arjun Singh Dhaiya </h2>
+                <p> he is the faculty mentor for the club, specializing in automation and robotics research. He has published over 30 research papers and actively collaborates with industry experts.</p>
+            </div>
+        </div>
+    </section>
+<!-- 🏆 Core Team Section -->
+<section class="core-team">
+    <h2>Core Team 2024-25</h2>
+
+    <!-- 🏅 First Row: President, Secretary, Treasurer -->
+    <div class="team-row">
+        <div class="team-member">
+            <img src="president.jpg" alt="President">
+            <p>President</p>
+        </div>
+        <div class="team-member">
+            <img src="secretary.jpg" alt="Secretary">
+            <p>Secretary</p>
+        </div>
+        <div class="team-member">
+            <img src="treasurer.jpg" alt="Treasurer">
+            <p>Treasurer</p>
+        </div>
+    </div>
+
+    <!-- 🎯 Second Row: Other Heads -->
+    <div class="team-row">
+        <div class="team-member">
+            <img src="event_head.jpg" alt="Event Management Head">
+            <p>Event Management Head</p>
+        </div>
+        <div class="team-member">
+            <img src="social_media.jpg" alt="Social Media Head">
+            <p>Social Media Head</p>
+        </div>
+        <div class="team-member">
+            <img src="graphic_head.jpg" alt="Graphic Head">
+            <p>Graphic Head</p>
+        </div>
+        <div class="team-member">
+            <img src="content_head.jpg" alt="Content Head">
+            <p>Content Head</p>
+        </div>
+        <div class="team-member">
+            <img src="technical.jpg" alt="Technical Head">
+            <p>Technical Head</p>
+        </div>
+    </div>
+</section>
+
+<!-- 🌍 Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We are a passionate team dedicated to making a difference through our events and initiatives.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+    <p class="footer-bottom">&copy; 2024 Your Organization. All Rights Reserved.</p>
+</footer>
+
+
+    <!-- Background Music -->
+    <audio id="background-music" loop autoplay>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="mute-button" class="mute-btn">🔊</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
